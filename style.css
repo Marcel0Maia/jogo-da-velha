@@ -1,0 +1,42 @@
+body{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#tabuleiro{
+    width: 495px;
+    height: 495px;
+    border: 2px solid black;
+    background-image: url(/tabuleiro.jpg);
+    background-size: cover;
+}
+
+.linha{
+    height: 165px;
+}
+
+.casa{
+    width: 165px;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+
+#Owin{
+    display: none;
+    position: absolute;
+    top: 200px;
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+#Xwin{
+    display: none;
+    position: absolute;
+    top: 200px;
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+}
