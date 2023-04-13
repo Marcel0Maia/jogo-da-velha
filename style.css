@@ -8,7 +8,7 @@ body{
     width: 495px;
     height: 495px;
     border: 2px solid black;
-    background-image: url(/tabuleiro.jpg);
+    background-image: url(tabuleiro.jpg);
     background-size: cover;
 }
 
